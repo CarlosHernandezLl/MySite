@@ -19,18 +19,18 @@ function myfunction(){
     var menu = document.getElementsByClassName('navbar');
     for (let index = 0; index < menu.length; index++) {
 
-        if(menu[index].style.display=='none'){
+        if(menu[index].style.display=='flex'){
 
-            menu[index].style.display='flex';
+            menu[index].style.display='none';
         }
         else{
-            menu[index].style.display='none';
+            menu[index].style.display='flex';
         }
     }
     
 
 }
-document.addEventListener('DOMContentLoaded', myfunction());
+//document.addEventListener('DOMContentLoaded', myfunction());
 
 
 
